@@ -1,19 +1,16 @@
 /**
- * Central site configuration.
+ * Central site configuration and public business contact details.
  *
- * All contact placeholders live here so they can be swapped in a single place
- * once the real delivery details are provided.
+ * All public contact values live here in a single place so they stay
+ * consistent across the footer, contact section, JSON-LD and metadata.
  */
 export const siteConfig = {
   name: "Vector Wave Studio",
   // Canonical base URL. Override with NEXT_PUBLIC_SITE_URL on Netlify.
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://vectorwavestudio.com",
 
-  // Primary contact (real).
   email: "santiagor@vectorwavestudio.com",
-
-  // Contact placeholders — replace with real values when available.
-  phoneDisplay: "+1 (555) 019-2834",
-  phoneHref: "tel:+15550192834",
-  whatsappHref: "https://wa.me/15550192834",
+  phoneDisplay: "+1 (240) 457-6572",
+  phoneHref: "tel:+12404576572",
+  whatsappHref: "https://wa.me/12404576572",
 } as const;
