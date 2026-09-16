@@ -6,9 +6,9 @@ import type { Dictionary } from "./dictionaries";
 export const es: Dictionary = {
   meta: {
     title:
-      "Nodo Norte Studio — Sitios web y sistemas digitales con dirección clara",
+      "Vector Wave Studio — Sitios web y sistemas digitales con dirección clara",
     description:
-      "Nodo Norte Studio diseña y desarrolla sitios web de alto rendimiento, aplicaciones web a medida, APIs backend, automatización e IA aplicada para empresas modernas.",
+      "Vector Wave Studio diseña y desarrolla sitios web de alto rendimiento, aplicaciones web a medida, APIs backend, automatización e IA aplicada para empresas modernas.",
   },
 
   header: {
@@ -31,7 +31,7 @@ export const es: Dictionary = {
     headlineHighlight: "dirección clara",
     headlineSuffix: ".",
     subtitle:
-      "Nodo Norte Studio diseña y desarrolla sitios web de alto rendimiento, software a medida, automatización y soluciones de IA para empresas listas para avanzar.",
+      "Vector Wave Studio diseña y desarrolla sitios web de alto rendimiento, software a medida, automatización y soluciones de IA para empresas listas para avanzar.",
     primaryCta: "Crear mi sitio web",
     secondaryCta: "Ver servicios",
     trustNote: "Acceso directo a ingeniería · Alcance a medida · Alto rendimiento",
@@ -76,7 +76,7 @@ export const es: Dictionary = {
     kicker: "Servicio principal · Estrella",
     title: "Tu sitio web debería hacer más que verse bien.",
     subtitle:
-      "Nodo Norte Studio construye páginas de aterrizaje y sitios corporativos a medida, mobile-first, diseñados para explicar tu oferta con claridad y convertir visitas en consultas calificadas.",
+      "Vector Wave Studio construye páginas de aterrizaje y sitios corporativos a medida, mobile-first, diseñados para explicar tu oferta con claridad y convertir visitas en consultas calificadas.",
     specsLabel: "Capacidad // Especificaciones",
     checklist: [
       {
@@ -204,23 +204,23 @@ export const es: Dictionary = {
       "Un estudio compacto de tres especialistas dedicados. Sin gerentes de cuenta, sin capas y sin traspasos a contratistas junior.",
     members: [
       {
-        initials: "TL",
-        role: "Fundador · Arquitectura",
-        name: "Fundador y líder técnico",
+        initials: "SR",
+        role: "Fundador · Líder técnico",
+        name: "Santiago Reyes",
         body: "Lidera arquitectura de software, sistemas backend, APIs, automatización e integraciones de IA aplicada. Convierte requisitos complejos en productos digitales escalables, mantenibles y de alto rendimiento.",
         tag: "SYSTEMS // INFRA CORE",
       },
       {
-        initials: "SD",
-        role: "Frontend · Control de calidad",
-        name: "Desarrollador de software y QA",
+        initials: "MG",
+        role: "Desarrolladora de software · QA",
+        name: "Margorys Gomez",
         body: "Ejecuta interfaces frontend, conexiones con servicios de terceros y pruebas rigurosas entre navegadores. Garantiza que cada aplicación web y página sea resiliente, rápida, accesible y lista para escalar.",
         tag: "CLIENT-SIDE · TESTING",
       },
       {
-        initials: "UI",
-        role: "Diseño · Estrategia de contenido",
-        name: "Diseñador UI y estratega",
+        initials: "CJ",
+        role: "Diseñadora UI · Estratega de contenido",
+        name: "Carmen Jimenez",
         body: "Diseña interfaces claras, sistemas de diseño cohesivos y mensajes editoriales con autoridad. Une la complejidad técnica con experiencias de conversión atractivas.",
         tag: "EXPERIENCE · COPY",
       },
@@ -304,7 +304,7 @@ export const es: Dictionary = {
       "Sistemas digitales con dirección clara. Ingeniería de sitios web, software, APIs, automatización e IA para plataformas modernas.",
     navigation: "Navegación",
     inquiries: "Consultas del estudio",
-    rights: "© 2025 Nodo Norte Studio. Todos los derechos reservados.",
+    rights: "© 2025 Vector Wave Studio. Todos los derechos reservados.",
     privacy: "Política de privacidad",
     terms: "Términos de servicio",
   },

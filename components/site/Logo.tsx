@@ -10,7 +10,7 @@ export function Logo({ className = "" }: { className?: string }) {
         <path d="M12 4 20 20H4Z" />
       </svg>
       <span className="text-base font-bold tracking-tight text-ink">
-        Nodo Norte Studio
+        Vector Wave Studio
       </span>
       <span className="mb-1 inline-block h-1.5 w-1.5 rounded-full bg-primary" />
     </span>

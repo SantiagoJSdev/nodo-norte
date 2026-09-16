@@ -23,7 +23,7 @@ export function Header({
   return (
     <header className="sticky top-0 z-50 border-b border-line bg-white/90 backdrop-blur">
       <Container className="flex h-16 items-center justify-between gap-4">
-        <Link href={`/${lang}`} aria-label="Nodo Norte Studio — home">
+        <Link href={`/${lang}`} aria-label="Vector Wave Studio — home">
           <Logo />
         </Link>
 

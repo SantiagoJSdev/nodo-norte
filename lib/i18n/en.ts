@@ -5,9 +5,9 @@
 export const en = {
   meta: {
     title:
-      "Nodo Norte Studio — Websites and Digital Systems with Clear Direction",
+      "Vector Wave Studio — Websites and Digital Systems with Clear Direction",
     description:
-      "Nodo Norte Studio designs and develops high-performing websites, custom web applications, backend APIs, automation, and applied AI for modern businesses.",
+      "Vector Wave Studio designs and develops high-performing websites, custom web applications, backend APIs, automation, and applied AI for modern businesses.",
   },
 
   header: {
@@ -30,7 +30,7 @@ export const en = {
     headlineHighlight: "clear direction",
     headlineSuffix: ".",
     subtitle:
-      "Nodo Norte Studio designs and develops high-performing websites, custom software, automation, and AI solutions for businesses ready to move forward.",
+      "Vector Wave Studio designs and develops high-performing websites, custom software, automation, and AI solutions for businesses ready to move forward.",
     primaryCta: "Build My Website",
     secondaryCta: "Explore Services",
     trustNote: "Direct engineer access · Custom scope · High performance",
@@ -75,7 +75,7 @@ export const en = {
     kicker: "Primary Service · Flagship",
     title: "Your website should do more than look good.",
     subtitle:
-      "Nodo Norte Studio builds custom, mobile-first landing pages and corporate websites designed to explain your offer clearly and turn visits into qualified inquiries.",
+      "Vector Wave Studio builds custom, mobile-first landing pages and corporate websites designed to explain your offer clearly and turn visits into qualified inquiries.",
     specsLabel: "Capability // Specs",
     checklist: [
       {
@@ -203,23 +203,23 @@ export const en = {
       "A compact studio of three dedicated specialists. No account managers, no layers, and no handoffs to junior contractors.",
     members: [
       {
-        initials: "TL",
-        role: "Founder · Architecture",
-        name: "Founder & Technical Lead",
+        initials: "SR",
+        role: "Founder · Technical Lead",
+        name: "Santiago Reyes",
         body: "Leads software architecture, backend systems, APIs, automation, and applied AI integrations. Turns complex business requirements into high-performing, scalable, and maintainable digital products.",
         tag: "SYSTEMS // CORE INFRA",
       },
       {
-        initials: "SD",
-        role: "Frontend · Quality Assurance",
-        name: "Software Developer & QA",
+        initials: "MG",
+        role: "Software Developer · QA",
+        name: "Margorys Gomez",
         body: "Executes frontend interfaces, third-party service connections, and rigorous cross-browser testing. Ensures every web application and landing page is resilient, fast, accessible, and ready to scale.",
         tag: "CLIENT-SIDE · TESTING",
       },
       {
-        initials: "UI",
-        role: "Design · Content Strategy",
-        name: "UI Designer & Strategist",
+        initials: "CJ",
+        role: "UI Designer · Content Strategist",
+        name: "Carmen Jimenez",
         body: "Designs clear user interfaces, cohesive design systems, and authoritative editorial messaging. Bridges the gap between technical complexity and compelling conversion experiences.",
         tag: "EXPERIENCE · COPY",
       },
@@ -298,7 +298,7 @@ export const en = {
       "Digital systems with clear direction. Engineering websites, software, APIs, automation, and AI for modern platforms.",
     navigation: "Navigation",
     inquiries: "Studio Inquiries",
-    rights: "© 2025 Nodo Norte Studio. All rights reserved.",
+    rights: "© 2025 Vector Wave Studio. All rights reserved.",
     privacy: "Privacy Policy",
     terms: "Terms of Service",
   },

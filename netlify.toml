@@ -1,4 +1,4 @@
-# Nodo Norte Studio — Netlify configuration
+# Vector Wave Studio — Netlify configuration
 # Netlify auto-detects Next.js. This file pins the build settings explicitly.
 
 [build]
