@@ -31,7 +31,7 @@ export function Process({ dict }: { dict: Dictionary }) {
                   {step.number}
                 </span>
                 <span className="font-mono text-[11px] uppercase text-muted">
-                  {process.phaseLabel} // {step.number}
+                  {`${process.phaseLabel} // ${step.number}`}
                 </span>
               </div>
               <h3 className="mb-1.5 text-lg font-semibold text-ink">
