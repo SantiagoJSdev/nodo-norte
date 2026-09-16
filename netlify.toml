@@ -1,0 +1,9 @@
+# Nodo Norte Studio — Netlify configuration
+# Netlify auto-detects Next.js. This file pins the build settings explicitly.
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"

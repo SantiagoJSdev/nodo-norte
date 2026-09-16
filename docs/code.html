@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=JetBrains+Mono:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-primary-fixed":"#410002","tertiary-container":"#697686","text-secondary":"#526173","inverse-surface":"#233242","on-background":"#0d1d2c","on-tertiary":"#ffffff","surface-dim":"#ccdbf1","on-tertiary-container":"#fdfcff","secondary-fixed-dim":"#ffb68e","surface-secondary":"#EEF1F5","on-secondary-container":"#6e2f00","border-subtle":"#EEF1F5","outline-variant":"#e7bcb8","surface-primary":"#FFFFFF","surface-bright":"#f8f9ff","surface-container-high":"#daeaff","on-secondary-fixed-variant":"#763300","inverse-on-surface":"#e9f1ff","error-container":"#ffdad6","surface-container-low":"#eef4ff","on-error-container":"#93000a","border-strong":"#E2E8F0","surface-container-highest":"#d4e4f9","on-secondary-fixed":"#331200","primary-container":"#e51a22","error":"#ba1a1a","secondary":"#9b4500","primary":"#bb0013","surface-supporting":"#FAFAFA","on-primary-fixed-variant":"#93000c","inverse-primary":"#ffb4ab","secondary-fixed":"#ffdbc9","on-tertiary-fixed":"#101c2a","on-surface":"#0d1d2c","surface-variant":"#d4e4f9","on-error":"#ffffff","primary-fixed-dim":"#ffb4ab","outline":"#926e6a","on-surface-variant":"#5e3f3c","tertiary-fixed":"#d7e3f6","surface-container-lowest":"#ffffff","primary-fixed":"#ffdad6","tertiary-fixed-dim":"#bbc7da","text-primary":"#1E2A38","secondary-container":"#ff914e","on-secondary":"#ffffff","on-tertiary-fixed-variant":"#3c4857","background":"#f8f9ff","on-primary-container":"#fffbff","surface":"#f8f9ff","on-primary":"#ffffff","surface-container":"#e4efff","surface-tint":"#c00014","tertiary":"#515d6d"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"margin":"3rem","space-xs":"0.25rem","space-xl":"2.5rem","gutter-mobile":"1rem","gutter":"1.5rem","space-2xl":"4rem","margin-mobile":"1.25rem","space-lg":"1.5rem","space-3xl":"6rem","space-md":"1rem","space-sm":"0.5rem"},"fontFamily":{"display-mobile":["Geist"],"label-mono":["JetBrains Mono"],"body-lg":["Geist"],"headline-lg-mobile":["Geist"],"display":["Geist"],"headline-lg":["Geist"],"body-md":["Geist"],"subheading":["Geist"],"headline-md":["Geist"],"headline-sm":["Geist"],"label-sm":["Geist"]},"fontSize":{"display-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.03em","fontWeight":"800"}],"label-mono":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"500"}],"body-lg":["16px",{"lineHeight":"26px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.02em","fontWeight":"700"}],"display":["56px",{"lineHeight":"64px","letterSpacing":"-0.04em","fontWeight":"800"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.03em","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"22px","letterSpacing":"0em","fontWeight":"400"}],"subheading":["18px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"500"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.01em","fontWeight":"500"}]}}}};</script></head><body class="bg-surface-primary font-body-md text-text-primary antialiased"><header class="fixed top-0 w-full z-50 bg-surface-primary/90 backdrop-blur-xl border-b border-border-subtle shadow-[0_1px_8px_rgba(0,0,0,0.02)]"><div class="h-20 max-w-[1280px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between"><a class="flex items-center gap-space-xs text-headline-sm font-headline-sm text-text-primary tracking-tight" data-path="home" href="#"><span class="material-symbols-outlined text-primary text-[20px]">change_history</span><span>Nodo Norte Studio</span><span class="inline-block w-1.5 h-1.5 rounded-full bg-primary mb-1"></span></a><nav class="hidden md:flex items-center gap-space-xl" data-active-classes="text-text-primary font-semibold border-b border-primary"><a class="font-body-md text-body-md text-text-secondary hover:text-text-primary transition-colors py-space-xs" data-path="services" href="#">Services</a><a class="font-body-md text-body-md text-text-secondary hover:text-text-primary transition-colors py-space-xs" data-path="process" href="#">Process</a><a class="font-body-md text-body-md text-text-secondary hover:text-text-primary transition-colors py-space-xs" data-path="team" href="#">Team</a><a class="font-body-md text-body-md text-text-secondary hover:text-text-primary transition-colors py-space-xs" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><div class="hidden sm:flex items-center border border-border-subtle rounded-full px-space-sm py-space-xs bg-surface-secondary text-label-mono font-label-mono text-text-secondary gap-space-xs"><span class="text-text-primary font-semibold px-space-xs">EN</span><span class="text-border-strong">|</span><span class="px-space-xs hover:text-text-primary cursor-pointer transition-colors">ES</span></div><a class="inline-flex items-center justify-center px-space-lg py-space-sm rounded-lg bg-primary hover:bg-secondary-container text-on-primary font-label-sm text-label-sm uppercase tracking-wider transition-colors duration-150 shadow-[0_1px_4px_rgba(187,0,19,0.2)]" data-path="quote-request" href="#contact">Request a Quote</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface-primary"><div class="flex flex-col w-full">
+<!-- ================================================================= -->
+<!-- 1. HERO SECTION (Desktop 2-column Grid, Calibrated Rhythm)        -->
+<!-- ================================================================= -->
+<section class="w-full bg-surface-primary pb-space-3xl pt-space-xl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl lg:gap-space-2xl items-center">
+<!-- Left Column: Value Proposition & Intent -->
+<div class="lg:col-span-6 flex flex-col items-start">
+<!-- Kicker Capsule -->
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-surface-secondary text-text-secondary text-label-mono font-label-mono uppercase tracking-wider mb-space-md">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
+<span>Digital systems with clear direction</span>
+</div>
+<!-- Main Headline -->
+<h1 class="text-headline-lg lg:text-display font-headline-lg lg:font-display text-text-primary tracking-tight text-balance">
+            Websites and digital systems built with <span class="text-primary underline decoration-secondary-container decoration-2 underline-offset-4">clear direction</span>.
+          </h1>
+<!-- Subtitle -->
+<p class="mt-space-md text-subheading font-subheading text-text-secondary max-w-xl leading-relaxed">
+            Nodo Norte Studio designs and develops high-performing websites, custom software, automation, and AI solutions for businesses ready to move forward.
+          </p>
+<!-- Action Cluster -->
+<div class="mt-space-xl flex flex-wrap items-center gap-space-md w-full sm:w-auto">
+<a class="inline-flex items-center justify-center px-space-lg py-3 rounded-lg bg-primary hover:bg-secondary-container text-on-primary font-subheading text-body-md font-semibold tracking-wide transition-colors duration-150 shadow-sm" href="#contact">
+              Build My Website →
+            </a>
+<a class="inline-flex items-center justify-center px-space-lg py-3 rounded-lg bg-surface-primary hover:bg-surface-secondary text-text-primary font-body-md font-medium transition-colors duration-150" href="#flagship">
+              Explore Services ↓
+            </a>
+</div>
+<!-- Micro-trust note -->
+<div class="mt-space-lg flex items-center gap-space-sm text-label-mono font-label-mono text-text-secondary">
+<span class="material-symbols-outlined text-secondary-container text-[18px]">verified</span>
+<span>Direct engineer access · Custom scope · High performance</span>
+</div>
+</div>
+<!-- Right Column: Architectural Technological Composition -->
+<div class="lg:col-span-6 w-full">
+<div class="bg-text-primary text-surface-primary rounded-xl p-space-md shadow-xl overflow-hidden relative">
+<!-- Window Topbar Chrome -->
+<div class="flex items-center justify-between pb-space-sm mb-space-md">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-primary inline-block"></span>
+<span class="w-3 h-3 rounded-full bg-secondary-container inline-block"></span>
+<span class="w-3 h-3 rounded-full bg-surface-supporting inline-block opacity-40"></span>
+<span class="ml-2 text-label-mono font-label-mono text-text-secondary text-[11px] tracking-wide">sys.mesh // live 99.98% SPEED</span>
+</div>
+<div class="flex items-center gap-2 text-label-mono font-label-mono text-[11px] text-surface-secondary">
+<span class="inline-block w-2 h-2 rounded-full bg-primary"></span>
+<span>US-EAST-01</span>
+</div>
+</div>
+<!-- Conceptual Wireframe Grid Panel -->
+<div class="rounded-lg bg-inverse-surface p-space-md space-y-space-md">
+<div class="flex items-center justify-between text-label-mono font-label-mono text-[11px] text-surface-secondary">
+<span>PROJECT ARCHITECTURE: v4.2.0</span>
+<span class="text-secondary-container">NODE // READY</span>
+</div>
+<!-- Abstracted Visual UI Canvas -->
+<div class="grid grid-cols-12 gap-2 h-32 bg-text-primary rounded p-3 relative overflow-hidden">
+<div class="col-span-4 bg-surface-secondary/10 rounded flex flex-col justify-between p-2">
+<div class="h-2 w-12 bg-secondary-container/80 rounded-sm"></div>
+<div class="space-y-1">
+<div class="h-1.5 w-full bg-surface-secondary/20 rounded-sm"></div>
+<div class="h-1.5 w-3/4 bg-surface-secondary/20 rounded-sm"></div>
+</div>
+</div>
+<div class="col-span-8 bg-surface-secondary/5 rounded p-2 flex flex-col justify-between">
+<div class="flex justify-between items-center">
+<div class="h-2 w-20 bg-surface-secondary/40 rounded-sm"></div>
+<div class="h-2 w-6 bg-primary/80 rounded-sm"></div>
+</div>
+<!-- SVG Pipeline Stream Visualizer -->
+<svg class="w-full h-12 text-secondary-container/70" fill="none" preserveaspectratio="none" viewbox="0 0 300 48">
+<path d="M0 38 Q 75 10, 150 28 T 300 12" fill="none" stroke="currentColor" stroke-width="2"></path>
+<circle cx="150" cy="28" fill="#ff914e" r="3"></circle>
+<circle cx="280" cy="14" fill="#bb0013" r="3"></circle>
+</svg>
+<div class="flex items-center justify-between text-label-mono font-label-mono text-[10px] text-surface-secondary/60">
+<span>REQ: 1,420 TPS</span>
+<span>LATENCY: 12ms</span>
+</div>
+</div>
+</div>
+<!-- Live Execution Telemetry Inset -->
+<div class="p-space-sm bg-text-primary rounded font-label-mono text-label-mono text-surface-secondary space-y-1">
+<div class="flex items-center justify-between text-secondary-container">
+<span>PIPELINE.AUTOPILOT // EXEC OK</span>
+<span>SSL/TLS ENCRYPTED</span>
+</div>
+<div class="text-surface-secondary/80 truncate">
+                  > POST /api/v1/lead-sync: 200 OK (38ms)
+                </div>
+<div class="text-surface-secondary/50 text-[11px] truncate">
+                  > SYNC // Postgres schema synced. Vector store indexed.
+                </div>
+</div>
+</div>
+<!-- Bottom Status Footer -->
+<div class="mt-space-md pt-space-xs flex items-center justify-between text-label-mono font-label-mono text-[11px] text-text-secondary">
+<span class="flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+<span>Continuous Integration Active</span>
+</span>
+<span>EST. LOAD < 0.4s</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================================================================= -->
+<!-- 2. DIFFERENTIATOR STRIP (Wide 4-column Horizontal Grid)           -->
+<!-- ================================================================= -->
+<section class="w-full bg-surface-supporting py-space-xl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Metric Item 1 -->
+<div class="flex flex-col p-space-lg bg-surface-primary rounded-lg shadow-sm">
+<div class="w-10 h-10 rounded bg-surface-secondary flex items-center justify-center text-secondary-container mb-space-md">
+<span class="material-symbols-outlined text-[24px]">troubleshoot</span>
+</div>
+<span class="text-label-mono font-label-mono text-text-secondary text-[11px] uppercase tracking-wider mb-1">Principle 01</span>
+<h2 class="text-headline-sm font-headline-sm text-text-primary mb-space-xs">Conversion-focused design</h2>
+<p class="text-body-md font-body-md text-text-secondary leading-relaxed">
+            Structure engineered to turn visitors into qualified leads with deliberate hierarchy and intent.
+          </p>
+</div>
+<!-- Metric Item 2 -->
+<div class="flex flex-col p-space-lg bg-surface-primary rounded-lg shadow-sm">
+<div class="w-10 h-10 rounded bg-surface-secondary flex items-center justify-center text-secondary-container mb-space-md">
+<span class="material-symbols-outlined text-[24px]">terminal</span>
+</div>
+<span class="text-label-mono font-label-mono text-text-secondary text-[11px] uppercase tracking-wider mb-1">Principle 02</span>
+<h2 class="text-headline-sm font-headline-sm text-text-primary mb-space-xs">Custom development</h2>
+<p class="text-body-md font-body-md text-text-secondary leading-relaxed">
+            Zero bloated page builders or templates. Handcrafted, high-velocity code optimized for speed.
+          </p>
+</div>
+<!-- Metric Item 3 -->
+<div class="flex flex-col p-space-lg bg-surface-primary rounded-lg shadow-sm">
+<div class="w-10 h-10 rounded bg-surface-secondary flex items-center justify-center text-secondary-container mb-space-md">
+<span class="material-symbols-outlined text-[24px]">schema</span>
+</div>
+<span class="text-label-mono font-label-mono text-text-secondary text-[11px] uppercase tracking-wider mb-1">Principle 03</span>
+<h2 class="text-headline-sm font-headline-sm text-text-primary mb-space-xs">Systems built to scale</h2>
+<p class="text-body-md font-body-md text-text-secondary leading-relaxed">
+            Robust modular architecture that evolves smoothly alongside your operations without rewrites.
+          </p>
+</div>
+<!-- Metric Item 4 -->
+<div class="flex flex-col p-space-lg bg-surface-primary rounded-lg shadow-sm">
+<div class="w-10 h-10 rounded bg-surface-secondary flex items-center justify-center text-secondary-container mb-space-md">
+<span class="material-symbols-outlined text-[24px]">headset_mic</span>
+</div>
+<span class="text-label-mono font-label-mono text-text-secondary text-[11px] uppercase tracking-wider mb-1">Principle 04</span>
+<h2 class="text-headline-sm font-headline-sm text-text-primary mb-space-xs">Direct access to the team</h2>
+<p class="text-body-md font-body-md text-text-secondary leading-relaxed">
+            No intermediaries or account directors. Talk directly with the engineers building your software.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- ================================================================= -->
+<!-- 3. FEATURED SERVICE — WEB DESIGN & DEVELOPMENT                    -->
+<!-- ================================================================= -->
+<section class="w-full bg-surface-primary py-space-3xl" id="flagship">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<!-- Section Kicker Header -->
+<div class="flex flex-col max-w-2xl mb-space-2xl">
+<span class="text-label-mono font-label-mono text-secondary-container uppercase tracking-wider mb-space-xs">
+          PRIMARY SERVICE · FLAGSHIP
+        </span>
+<h2 class="text-headline-lg font-headline-lg text-text-primary tracking-tight">
+          Your website should do more than look good.
+        </h2>
+<p class="mt-space-sm text-subheading font-subheading text-text-secondary leading-relaxed">
+          Nodo Norte Studio builds custom, mobile-first landing pages and corporate websites designed to explain your offer clearly and turn visits into qualified inquiries.
+        </p>
+</div>
+<!-- Main Two-Column Flagship Showcase -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-2xl items-center bg-surface-supporting p-space-lg lg:p-space-2xl rounded-xl">
+<!-- Left Column: Strategic Capabilities Checklist -->
+<div class="lg:col-span-5 flex flex-col space-y-space-md">
+<span class="text-label-mono font-label-mono text-text-secondary uppercase tracking-widest text-[11px]">
+            CAPABILITY // SPECS
+          </span>
+<ul class="space-y-space-md text-body-md font-body-md text-text-primary">
+<li class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary-container text-[20px] shrink-0 mt-0.5">check_circle</span>
+<span><strong>Custom design</strong>, built mobile-first from the ground up for maximum visual resonance.</span>
+</li>
+<li class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary-container text-[20px] shrink-0 mt-0.5">check_circle</span>
+<span><strong>Clear messaging</strong> and conversion-focused page hierarchy tailored to your exact target audience.</span>
+</li>
+<li class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary-container text-[20px] shrink-0 mt-0.5">check_circle</span>
+<span><strong>High performance</strong>, technical SEO foundations, sub-second load times, and rock-solid deployment.</span>
+</li>
+<li class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary-container text-[20px] shrink-0 mt-0.5">check_circle</span>
+<span><strong>Direct integrations</strong> with forms, WhatsApp API, scheduling calendars, and custom CRM systems.</span>
+</li>
+</ul>
+<div class="pt-space-sm flex flex-col items-start gap-space-md">
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded bg-surface-primary text-text-secondary text-label-mono font-label-mono text-[11px]">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+<span>Custom scope. Quote tailored precisely to your goals.</span>
+</div>
+<a class="inline-flex items-center justify-center px-space-lg py-3 rounded-lg bg-primary hover:bg-secondary-container text-on-primary font-subheading text-body-md font-semibold transition-colors duration-150 shadow-sm" href="#contact">
+              Talk About My Website →
+            </a>
+</div>
+</div>
+<!-- Right Column: Interactive Flagship Blueprint Device Mockup -->
+<div class="lg:col-span-7 w-full bg-surface-primary rounded-xl p-space-md shadow-md">
+<!-- Mockup Chrome Header -->
+<div class="flex items-center justify-between pb-space-sm mb-space-md bg-surface-supporting px-3 py-2 rounded">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-container"></span>
+<span class="w-2.5 h-2.5 rounded-full bg-surface-secondary"></span>
+<span class="ml-2 text-label-mono font-label-mono text-text-secondary text-[11px]">SPEC: LANDING_SYSTEM // PROD</span>
+</div>
+<!-- View Mode Switcher -->
+<div class="flex items-center bg-surface-secondary rounded p-0.5 text-label-mono font-label-mono text-[11px]">
+<span class="px-2 py-0.5 rounded bg-surface-primary text-text-primary shadow-xs font-semibold">Desktop</span>
+<span class="px-2 py-0.5 text-text-secondary">Mobile</span>
+</div>
+</div>
+<!-- Conceptual Web Canvas Viewport -->
+<div class="space-y-space-md p-space-md bg-surface-supporting rounded-lg">
+<!-- Mock Header Bar -->
+<div class="flex items-center justify-between pb-space-xs">
+<div class="h-3 w-28 bg-text-primary rounded-sm"></div>
+<div class="flex gap-2">
+<div class="h-2.5 w-12 bg-surface-secondary rounded-sm"></div>
+<div class="h-2.5 w-12 bg-surface-secondary rounded-sm"></div>
+<div class="h-2.5 w-16 bg-primary rounded-sm"></div>
+</div>
+</div>
+<!-- Mock Hero Layout inside frame -->
+<div class="grid grid-cols-12 gap-space-md pt-2">
+<div class="col-span-7 space-y-2">
+<div class="h-2 w-20 bg-secondary-container rounded-sm"></div>
+<div class="h-6 w-full bg-text-primary rounded-sm"></div>
+<div class="h-4 w-5/6 bg-surface-secondary rounded-sm"></div>
+<div class="flex gap-2 pt-2">
+<div class="h-6 w-24 bg-primary rounded-sm"></div>
+<div class="h-6 w-20 bg-surface-secondary rounded-sm"></div>
+</div>
+</div>
+<div class="col-span-5 bg-surface-primary rounded p-3 flex flex-col justify-between shadow-xs">
+<div class="text-label-mono font-label-mono text-[10px] text-text-secondary flex justify-between">
+<span>METRICS</span>
+<span class="text-secondary-container">100 / 100</span>
+</div>
+<div class="space-y-1 my-2">
+<div class="flex justify-between text-[11px] font-label-mono text-text-secondary">
+<span>LCP</span> <span class="text-text-primary font-semibold">0.4s</span>
+</div>
+<div class="flex justify-between text-[11px] font-label-mono text-text-secondary">
+<span>FID</span> <span class="text-text-primary font-semibold">2ms</span>
+</div>
+<div class="flex justify-between text-[11px] font-label-mono text-text-secondary">
+<span>CLS</span> <span class="text-text-primary font-semibold">0.00</span>
+</div>
+</div>
+<div class="h-1.5 w-full bg-surface-secondary rounded-full overflow-hidden">
+<div class="h-full bg-primary w-full"></div>
+</div>
+</div>
+</div>
+<!-- Mock Content Blocks Grid -->
+<div class="grid grid-cols-3 gap-2 pt-2">
+<div class="p-2 bg-surface-primary rounded shadow-xs space-y-1">
+<div class="h-2 w-10 bg-secondary-container rounded-xs"></div>
+<div class="h-2 w-full bg-surface-secondary rounded-xs"></div>
+</div>
+<div class="p-2 bg-surface-primary rounded shadow-xs space-y-1">
+<div class="h-2 w-12 bg-primary rounded-xs"></div>
+<div class="h-2 w-full bg-surface-secondary rounded-xs"></div>
+</div>
+<div class="p-2 bg-surface-primary rounded shadow-xs space-y-1">
+<div class="h-2 w-8 bg-secondary-container rounded-xs"></div>
+<div class="h-2 w-full bg-surface-secondary rounded-xs"></div>
+</div>
+</div>
+</div>
+<!-- Bottom Telemetry Ribbon -->
+<div class="mt-space-sm flex items-center justify-between text-label-mono font-label-mono text-[11px] text-text-secondary pt-2">
+<span>READY TO DEPLOY // ZERO TECHNICAL DEBT</span>
+<span class="text-secondary-container font-medium">Lighthouse Score: 99.8%</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================================================================= -->
+<!-- 4. TECHNICAL CAPABILITIES (Asymmetric Architecture Grid)         -->
+<!-- ================================================================= -->
+<section class="w-full bg-surface-supporting py-space-3xl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<!-- Section Header -->
+<div class="flex flex-col max-w-3xl mb-space-2xl">
+<span class="text-label-mono font-label-mono text-secondary-container uppercase tracking-wider mb-space-xs">
+          INFRASTRUCTURE & CODE
+        </span>
+<h2 class="text-headline-lg font-headline-lg text-text-primary tracking-tight">
+          Engineering & Applied Technology
+        </h2>
+<p class="mt-space-sm text-subheading font-subheading text-text-secondary leading-relaxed">
+          Websites are just the surface. We engineer complete end-to-end digital foundations with scalable backend architectures, bespoke operational web apps, native utilities, and custom applied AI agents.
+        </p>
+</div>
+<!-- Asymmetric Layout: 2x2 Distinct Modular Panels -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- SYS_01: Backend Development -->
+<div class="bg-surface-primary rounded-xl p-space-xl flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="text-label-mono font-label-mono text-secondary-container text-label-sm">
+                SYS_01 // CORE APIS
+              </span>
+<span class="material-symbols-outlined text-secondary-container text-[26px]">dns</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-text-primary mb-space-xs">Backend Development</h3>
+<p class="text-body-md font-body-md text-text-secondary mb-space-lg">
+              Reliable, secure data handling and high-throughput server architecture crafted for endurance.
+            </p>
+<div class="space-y-space-sm">
+<div class="flex items-start gap-space-sm text-body-md font-body-md text-text-primary">
+<span class="material-symbols-outlined text-secondary-container text-[18px] shrink-0 mt-0.5">arrow_right_alt</span>
+<span>Custom NestJS, TypeScript, and Node.js REST / GraphQL APIs</span>
+</div>
+<div class="flex items-start gap-space-sm text-body-md font-body-md text-text-primary">
+<span class="material-symbols-outlined text-secondary-container text-[18px] shrink-0 mt-0.5">arrow_right_alt</span>
+<span>Microservices, scalable containerized architecture, and distributed workers</span>
+</div>
+<div class="flex items-start gap-space-sm text-body-md font-body-md text-text-primary">
+<span class="material-symbols-outlined text-secondary-container text-[18px] shrink-0 mt-0.5">arrow_right_alt</span>
+<span>Webhook pipelines and process automation orchestration with n8n</span>
+</div>
+<div class="flex items-start gap-space-sm text-body-md font-body-md text-text-primary">
+<span class="material-symbols-outlined text-secondary-container text-[18px] shrink-0 mt-0.5">arrow_right_alt</span>
+<span>Robust authentication, RBAC permissions, and multi-tenant structures</span>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md flex items-center justify-between text-label-mono font-label-mono text-[11px] text-text-secondary">
+<span>STACK: NODE · NEST · POSTGRES</span>
+<span class="text-primary font-semibold">SYS.OK</span>
+</div>
+</div>
+<!-- SYS_02: Web Applications -->
+<div class="bg-surface-primary rounded-xl p-space-xl flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="text-label-mono font-label-mono text-secondary-container text-label-sm">
+                SYS_02 // DASHBOARDS & TOOLS
+              </span>
+<span class="material-symbols-outlined text-secondary-container text-[26px]">dashboard_customize</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-text-primary mb-space-xs">Web Applications</h3>
+<p class="text-body-md font-body-md text-text-secondary mb-space-lg">
+              Internal business platforms, customer self-service portals, and customized operational tooling.
+            </p>
+<div class="space-y-space-sm">
+<div class="flex items-start gap-space-sm text-body-md font-body-md text-text-primary">
+<span class="material-symbols-outlined text-secondary-container text-[18px] shrink-0 mt-0.5">arrow_right_alt</span>
+<span>Full-stack reactive web applications built on modern Next.js foundations</span>
+</div>
+<div class="flex items-start gap-space-sm text-body-md font-body-md text-text-primary">
+<span class="material-symbols-outlined text-secondary-container text-[18px] shrink-0 mt-0.5">arrow_right_alt</span>
+<span>Operational cockpits, admin consoles, and complex data grid tables</span>
+</div>
+<div class="flex items-start gap-space-sm text-body-md font-body-md text-text-primary">
+<span class="material-symbols-outlined text-secondary-container text-[18px] shrink-0 mt-0.5">arrow_right_alt</span>
+<span>Interactive estimators, dynamic quote calculators, and embedded customer widgets</span>
+</div>
+<div class="flex items-start gap-space-sm text-body-md font-body-md text-text-primary">
+<span class="material-symbols-outlined text-secondary-container text-[18px] shrink-0 mt-0.5">arrow_right_alt</span>
+<span>Role-based portal access with instantaneous state synchronization</span>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md flex items-center justify-between text-label-mono font-label-mono text-[11px] text-text-secondary">
+<span>STACK: REACT · NEXT.JS · TAILWIND</span>
+<span class="text-primary font-semibold">SYS.OK</span>
+</div>
+</div>
+<!-- SYS_03: Mobile Development -->
+<div class="bg-surface-primary rounded-xl p-space-xl flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="text-label-mono font-label-mono text-secondary-container text-label-sm">
+                SYS_03 // NATIVE CLIENTS
+              </span>
+<span class="material-symbols-outlined text-secondary-container text-[26px]">devices</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-text-primary mb-space-xs">Mobile Development</h3>
+<p class="text-body-md font-body-md text-text-secondary mb-space-lg">
+              Dedicated iOS and Android mobile software for distributed teams, field staff, and logistics.
+            </p>
+<div class="space-y-space-sm">
+<div class="flex items-start gap-space-sm text-body-md font-body-md text-text-primary">
+<span class="material-symbols-outlined text-secondary-container text-[18px] shrink-0 mt-0.5">arrow_right_alt</span>
+<span>Cross-platform iOS and Android applications with native performance</span>
+</div>
+<div class="flex items-start gap-space-sm text-body-md font-body-md text-text-primary">
+<span class="material-symbols-outlined text-secondary-container text-[18px] shrink-0 mt-0.5">arrow_right_alt</span>
+<span>Field diagnostics, logistics tracking, and POS utility integrations</span>
+</div>
+<div class="flex items-start gap-space-sm text-body-md font-body-md text-text-primary">
+<span class="material-symbols-outlined text-secondary-container text-[18px] shrink-0 mt-0.5">arrow_right_alt</span>
+<span>Offline-first architectures with robust auto-sync when connection restores</span>
+</div>
+<div class="flex items-start gap-space-sm text-body-md font-body-md text-text-primary">
+<span class="material-symbols-outlined text-secondary-container text-[18px] shrink-0 mt-0.5">arrow_right_alt</span>
+<span>Native hardware bridging (Camera, GPS, Bluetooth peripherals)</span>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md flex items-center justify-between text-label-mono font-label-mono text-[11px] text-text-secondary">
+<span>STACK: REACT NATIVE · EXPO · OFFLINE-SYNC</span>
+<span class="text-primary font-semibold">SYS.OK</span>
+</div>
+</div>
+<!-- SYS_04: Applied AI & Automation -->
+<div class="bg-surface-primary rounded-xl p-space-xl flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="text-label-mono font-label-mono text-secondary-container text-label-sm">
+                SYS_04 // INTELLIGENCE & AUTOMATION
+              </span>
+<span class="material-symbols-outlined text-secondary-container text-[26px]">psychology</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-text-primary mb-space-xs">Applied AI</h3>
+<p class="text-body-md font-body-md text-text-secondary mb-space-lg">
+              Pragmatic artificial intelligence integrated into business touchpoints, eliminating repetitive tasks.
+            </p>
+<div class="space-y-space-sm">
+<div class="flex items-start gap-space-sm text-body-md font-body-md text-text-primary">
+<span class="material-symbols-outlined text-secondary-container text-[18px] shrink-0 mt-0.5">arrow_right_alt</span>
+<span>High-precision website AI chat systems calibrated for lead qualification</span>
+</div>
+<div class="flex items-start gap-space-sm text-body-md font-body-md text-text-primary">
+<span class="material-symbols-outlined text-secondary-container text-[18px] shrink-0 mt-0.5">arrow_right_alt</span>
+<span>Context-aware WhatsApp Business AI agents running on proprietary knowledge</span>
+</div>
+<div class="flex items-start gap-space-sm text-body-md font-body-md text-text-primary">
+<span class="material-symbols-outlined text-secondary-container text-[18px] shrink-0 mt-0.5">arrow_right_alt</span>
+<span>Intelligent document parsing, invoice extraction, and automatic CRM population</span>
+</div>
+<div class="flex items-start gap-space-sm text-body-md font-body-md text-text-primary">
+<span class="material-symbols-outlined text-secondary-container text-[18px] shrink-0 mt-0.5">arrow_right_alt</span>
+<span>RAG (Retrieval-Augmented Generation) architectures tailored to corporate data</span>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md flex items-center justify-between text-label-mono font-label-mono text-[11px] text-text-secondary">
+<span>STACK: LLM APIS · VECTOR STORE · AGENTS</span>
+<span class="text-primary font-semibold">SYS.OK</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================================================================= -->
+<!-- 5. PROCESS SECTION (Four-Step Horizontal Progressive Timeline)    -->
+<!-- ================================================================= -->
+<section class="w-full bg-surface-primary py-space-3xl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<!-- Section Header -->
+<div class="flex flex-col max-w-2xl mb-space-2xl">
+<span class="text-label-mono font-label-mono text-secondary-container uppercase tracking-wider mb-space-xs">
+          HOW WE WORK · THE PROCESS
+        </span>
+<h2 class="text-headline-lg font-headline-lg text-text-primary tracking-tight">
+          A structured process built for velocity and clarity.
+        </h2>
+<p class="mt-space-sm text-subheading font-subheading text-text-secondary leading-relaxed">
+          We strip out administrative excess. Every sprint has explicit deliverables, direct communication, and measurable engineering outcomes.
+        </p>
+</div>
+<!-- 4-Step Horizontal Timeline Grid -->
+<div class="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Step 1 -->
+<div class="relative flex flex-col p-space-lg bg-surface-supporting rounded-xl shadow-xs">
+<div class="flex items-center justify-between mb-space-md">
+<span class="text-label-mono font-label-mono text-primary font-bold text-headline-sm">01</span>
+<span class="text-label-mono font-label-mono text-[11px] text-text-secondary uppercase">PHASE // 01</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-text-primary mb-space-xs">Discovery</h3>
+<p class="text-body-md font-body-md text-text-secondary leading-relaxed">
+            We understand your business model, target market, functional bottlenecks, and explicit project scope before writing a line of code.
+          </p>
+</div>
+<!-- Step 2 -->
+<div class="relative flex flex-col p-space-lg bg-surface-supporting rounded-xl shadow-xs">
+<div class="flex items-center justify-between mb-space-md">
+<span class="text-label-mono font-label-mono text-secondary-container font-bold text-headline-sm">02</span>
+<span class="text-label-mono font-label-mono text-[11px] text-text-secondary uppercase">PHASE // 02</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-text-primary mb-space-xs">Strategy & Design</h3>
+<p class="text-body-md font-body-md text-text-secondary leading-relaxed">
+            We map wireframes, message hierarchy, conversion paths, and aesthetic identity to create an authoritative visual interface.
+          </p>
+</div>
+<!-- Step 3 -->
+<div class="relative flex flex-col p-space-lg bg-surface-supporting rounded-xl shadow-xs">
+<div class="flex items-center justify-between mb-space-md">
+<span class="text-label-mono font-label-mono text-secondary-container font-bold text-headline-sm">03</span>
+<span class="text-label-mono font-label-mono text-[11px] text-text-secondary uppercase">PHASE // 03</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-text-primary mb-space-xs">Development</h3>
+<p class="text-body-md font-body-md text-text-secondary leading-relaxed">
+            We build, integrate third-party APIs, and rigorously test the software with zero bloat, ensuring speed, security, and responsive precision.
+          </p>
+</div>
+<!-- Step 4 -->
+<div class="relative flex flex-col p-space-lg bg-surface-supporting rounded-xl shadow-xs">
+<div class="flex items-center justify-between mb-space-md">
+<span class="text-label-mono font-label-mono text-primary font-bold text-headline-sm">04</span>
+<span class="text-label-mono font-label-mono text-[11px] text-text-secondary uppercase">PHASE // 04</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-text-primary mb-space-xs">Launch & Evolution</h3>
+<p class="text-body-md font-body-md text-text-secondary leading-relaxed">
+            We deploy to production infrastructure, monitor initial telemetry, and establish a firm foundation for your continuous business expansion.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- ================================================================= -->
+<!-- 6. TEAM SECTION (Multidisciplinary Boutique Specialists)          -->
+<!-- ================================================================= -->
+<section class="w-full bg-surface-supporting py-space-3xl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<!-- Section Header -->
+<div class="flex flex-col max-w-3xl mb-space-2xl">
+<span class="text-label-mono font-label-mono text-secondary-container uppercase tracking-wider mb-space-xs">
+          THE STUDIO · CORE TEAM
+        </span>
+<h2 class="text-headline-lg font-headline-lg text-text-primary tracking-tight">
+          Direct engineering collaboration, from day one.
+        </h2>
+<p class="mt-space-sm text-subheading font-subheading text-text-secondary leading-relaxed">
+          A compact studio of three dedicated specialists. No account managers, no layers, and no handoffs to junior contractors.
+        </p>
+</div>
+<!-- 3-Column Team Layout -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Specialist 1 -->
+<div class="bg-surface-primary rounded-xl p-space-xl flex flex-col justify-between shadow-sm">
+<div>
+<div class="w-14 h-14 rounded-lg bg-text-primary text-surface-primary flex items-center justify-center font-label-mono text-headline-sm font-bold mb-space-md">
+              TL
+            </div>
+<span class="text-label-mono font-label-mono text-primary uppercase text-[11px] tracking-wider block mb-1">
+              FOUNDER · ARCHITECTURE
+            </span>
+<h3 class="text-headline-sm font-headline-sm text-text-primary mb-space-xs">
+              Founder & Technical Lead
+            </h3>
+<p class="text-body-md font-body-md text-text-secondary leading-relaxed">
+              Leads software architecture, backend systems, APIs, automation, and applied AI integrations. Turns complex business requirements into high-performing, scalable, and maintainable digital products.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-md flex items-center gap-2 text-label-mono font-label-mono text-[11px] text-text-secondary">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+<span>SYSTEMS // CORE INFRA</span>
+</div>
+</div>
+<!-- Specialist 2 -->
+<div class="bg-surface-primary rounded-xl p-space-xl flex flex-col justify-between shadow-sm">
+<div>
+<div class="w-14 h-14 rounded-lg bg-surface-secondary text-text-primary flex items-center justify-center font-label-mono text-headline-sm font-bold mb-space-md">
+              SD
+            </div>
+<span class="text-label-mono font-label-mono text-secondary-container uppercase text-[11px] tracking-wider block mb-1">
+              FRONTEND · QUALITY ASSURANCE
+            </span>
+<h3 class="text-headline-sm font-headline-sm text-text-primary mb-space-xs">
+              Software Developer & QA
+            </h3>
+<p class="text-body-md font-body-md text-text-secondary leading-relaxed">
+              Executes frontend interfaces, third-party service connections, and rigorous cross-browser testing. Ensures every web application and landing page is resilient, fast, accessible, and ready to scale.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-md flex items-center gap-2 text-label-mono font-label-mono text-[11px] text-text-secondary">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+<span>CLIENT-SIDE · TESTING</span>
+</div>
+</div>
+<!-- Specialist 3 -->
+<div class="bg-surface-primary rounded-xl p-space-xl flex flex-col justify-between shadow-sm">
+<div>
+<div class="w-14 h-14 rounded-lg bg-secondary-container/15 text-secondary-container flex items-center justify-center font-label-mono text-headline-sm font-bold mb-space-md">
+              UI
+            </div>
+<span class="text-label-mono font-label-mono text-text-primary uppercase text-[11px] tracking-wider block mb-1">
+              DESIGN · CONTENT STRATEGY
+            </span>
+<h3 class="text-headline-sm font-headline-sm text-text-primary mb-space-xs">
+              UI Designer & Strategist
+            </h3>
+<p class="text-body-md font-body-md text-text-secondary leading-relaxed">
+              Designs clear user interfaces, cohesive design systems, and authoritative editorial messaging. Bridges the gap between technical complexity and compelling conversion experiences.
+            </p>
+</div>
+<div class="mt-space-lg pt-space-md flex items-center gap-2 text-label-mono font-label-mono text-[11px] text-text-secondary">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+<span>EXPERIENCE · COPY</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================================================================= -->
+<!-- 7. CONTACT SECTION (Comprehensive Desktop Qualification Form)      -->
+<!-- ================================================================= -->
+<section class="w-full bg-surface-primary py-space-3xl" id="contact">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<!-- Section Header -->
+<div class="flex flex-col max-w-3xl mb-space-2xl">
+<span class="text-label-mono font-label-mono text-primary uppercase tracking-wider mb-space-xs">
+          START A PROJECT
+        </span>
+<h2 class="text-headline-lg font-headline-lg text-text-primary tracking-tight">
+          Let’s build something with clear direction.
+        </h2>
+<p class="mt-space-sm text-subheading font-subheading text-text-secondary leading-relaxed">
+          Tell us what you’re building, what problem you want to solve, and where you want to go next. We’ll get back to you with the right next step.
+        </p>
+</div>
+<!-- Main Two-Column Contact Architecture -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-2xl bg-surface-supporting p-space-lg lg:p-space-2xl rounded-2xl">
+<!-- Left Column: Scope Ingestion Form -->
+<div class="lg:col-span-8 bg-surface-primary p-space-lg lg:p-space-xl rounded-xl shadow-xs">
+<form class="space-y-space-xl" onsubmit="event.preventDefault(); alert('Thank you. We will review your project requirements and respond within 24 hours.');">
+<!-- Group 01: Contact Information -->
+<div>
+<div class="flex items-center gap-2 text-label-mono font-label-mono text-[11px] text-secondary-container uppercase tracking-wider mb-space-md">
+<span>01 // CONTACT INFORMATION</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div>
+<label class="block text-body-md font-body-md text-text-primary font-medium mb-1">
+                    Full Name <span class="text-primary">*</span>
+</label>
+<input class="w-full bg-surface-supporting px-3.5 py-2.5 rounded text-body-md font-body-md text-text-primary outline-none focus:bg-surface-primary transition-all" placeholder="Alex Rivera" required="" type="text"/>
+</div>
+<div>
+<label class="block text-body-md font-body-md text-text-primary font-medium mb-1">
+                    Work Email <span class="text-primary">*</span>
+</label>
+<input class="w-full bg-surface-supporting px-3.5 py-2.5 rounded text-body-md font-body-md text-text-primary outline-none focus:bg-surface-primary transition-all" placeholder="alex@company.com" required="" type="email"/>
+</div>
+<div>
+<label class="block text-body-md font-body-md text-text-primary font-medium mb-1">
+                    Business Name
+                  </label>
+<input class="w-full bg-surface-supporting px-3.5 py-2.5 rounded text-body-md font-body-md text-text-primary outline-none focus:bg-surface-primary transition-all" placeholder="Apex Logistics" type="text"/>
+</div>
+<div>
+<label class="block text-body-md font-body-md text-text-primary font-medium mb-1">
+                    Phone / WhatsApp Number
+                  </label>
+<input class="w-full bg-surface-supporting px-3.5 py-2.5 rounded text-body-md font-body-md text-text-primary outline-none focus:bg-surface-primary transition-all" placeholder="+1 (555) 000-0000" type="tel"/>
+</div>
+</div>
+</div>
+<!-- Group 02: Services Selection -->
+<div>
+<div class="flex items-center gap-2 text-label-mono font-label-mono text-[11px] text-secondary-container uppercase tracking-wider mb-space-md">
+<span>02 // REQUIRED CAPABILITIES</span>
+</div>
+<p class="text-body-md font-body-md text-text-secondary mb-space-sm">What type of solution do you need? (Select all that apply)</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+<label class="flex items-center gap-3 p-3 rounded bg-surface-supporting cursor-pointer hover:bg-surface-secondary transition-colors">
+<input checked="" class="w-4 h-4 accent-primary rounded" type="checkbox"/>
+<span class="text-body-md font-body-md text-text-primary">Website Design & Development</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded bg-surface-supporting cursor-pointer hover:bg-surface-secondary transition-colors">
+<input class="w-4 h-4 accent-primary rounded" type="checkbox"/>
+<span class="text-body-md font-body-md text-text-primary">Custom Web Application</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded bg-surface-supporting cursor-pointer hover:bg-surface-secondary transition-colors">
+<input class="w-4 h-4 accent-primary rounded" type="checkbox"/>
+<span class="text-body-md font-body-md text-text-primary">Backend, API & Microservices</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded bg-surface-supporting cursor-pointer hover:bg-surface-secondary transition-colors">
+<input class="w-4 h-4 accent-primary rounded" type="checkbox"/>
+<span class="text-body-md font-body-md text-text-primary">Process Automation (n8n, APIs)</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded bg-surface-supporting cursor-pointer hover:bg-surface-secondary transition-colors">
+<input class="w-4 h-4 accent-primary rounded" type="checkbox"/>
+<span class="text-body-md font-body-md text-text-primary">Applied AI / WhatsApp Chatbots</span>
+</label>
+<label class="flex items-center gap-3 p-3 rounded bg-surface-supporting cursor-pointer hover:bg-surface-secondary transition-colors">
+<input class="w-4 h-4 accent-primary rounded" type="checkbox"/>
+<span class="text-body-md font-body-md text-text-primary">Mobile Development (iOS / Android)</span>
+</label>
+</div>
+</div>
+<!-- Group 03: Budget Range -->
+<div>
+<div class="flex items-center gap-2 text-label-mono font-label-mono text-[11px] text-secondary-container uppercase tracking-wider mb-space-md">
+<span>03 // ESTIMATED BUDGET</span>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-5 gap-2">
+<label class="flex flex-col items-center justify-center p-3 rounded bg-surface-supporting text-center cursor-pointer hover:bg-surface-secondary transition-colors">
+<input class="accent-primary mb-1" name="budget" type="radio" value="under-1k"/>
+<span class="text-[12px] font-label-mono text-text-primary">< $1,000</span>
+</label>
+<label class="flex flex-col items-center justify-center p-3 rounded bg-surface-supporting text-center cursor-pointer hover:bg-surface-secondary transition-colors">
+<input class="accent-primary mb-1" name="budget" type="radio" value="1k-2.5k"/>
+<span class="text-[12px] font-label-mono text-text-primary">$1K - $2.5K</span>
+</label>
+<label class="flex flex-col items-center justify-center p-3 rounded bg-surface-supporting text-center cursor-pointer hover:bg-surface-secondary transition-colors">
+<input checked="" class="accent-primary mb-1" name="budget" type="radio" value="2.5k-5k"/>
+<span class="text-[12px] font-label-mono text-text-primary font-semibold">$2.5K - $5K</span>
+</label>
+<label class="flex flex-col items-center justify-center p-3 rounded bg-surface-supporting text-center cursor-pointer hover:bg-surface-secondary transition-colors">
+<input class="accent-primary mb-1" name="budget" type="radio" value="5k+"/>
+<span class="text-[12px] font-label-mono text-text-primary">$5,000+</span>
+</label>
+<label class="flex flex-col items-center justify-center p-3 rounded bg-surface-supporting text-center cursor-pointer hover:bg-surface-secondary transition-colors col-span-2 sm:col-span-1">
+<input class="accent-primary mb-1" name="budget" type="radio" value="undecided"/>
+<span class="text-[12px] font-label-mono text-text-primary">Not Sure</span>
+</label>
+</div>
+</div>
+<!-- Group 04: Project Overview -->
+<div>
+<div class="flex items-center gap-2 text-label-mono font-label-mono text-[11px] text-secondary-container uppercase tracking-wider mb-space-md">
+<span>04 // PROJECT DETAILS</span>
+</div>
+<label class="block text-body-md font-body-md text-text-primary font-medium mb-1">
+                Tell us about your project, timeline, and current bottlenecks
+              </label>
+<textarea class="w-full bg-surface-supporting p-3.5 rounded text-body-md font-body-md text-text-primary outline-none focus:bg-surface-primary transition-all" placeholder="Describe what you are looking to build or optimize..." required="" rows="4"></textarea>
+</div>
+<!-- Submit Button -->
+<button class="w-full py-4 rounded-lg bg-primary hover:bg-secondary-container text-on-primary font-subheading text-body-lg font-semibold tracking-wide transition-colors duration-150 shadow-md" type="submit">
+              Request a Quote →
+            </button>
+<p class="text-center text-label-mono font-label-mono text-text-secondary text-[11px]">
+              We respect your inbox. Typically responded to within 1 business day.
+            </p>
+</form>
+</div>
+<!-- Right Column: Direct Reassurance & Instant Contact Channels -->
+<div class="lg:col-span-4 flex flex-col justify-between space-y-space-xl">
+<!-- Reassurance Box -->
+<div class="p-space-lg bg-surface-primary rounded-xl shadow-xs">
+<div class="flex items-center gap-2 text-primary mb-space-xs">
+<span class="material-symbols-outlined text-[22px]">verified_user</span>
+<span class="font-headline-sm text-headline-sm font-semibold">Direct Collaboration</span>
+</div>
+<p class="text-body-md font-body-md text-text-secondary leading-relaxed">
+              You will speak directly with the team building your project. No intermediaries, no sales agents, and no handoffs.
+            </p>
+</div>
+<!-- Channel Directory -->
+<div class="space-y-space-md">
+<span class="text-label-mono font-label-mono text-text-secondary uppercase tracking-wider text-[11px]">
+              INSTANT CHANNELS
+            </span>
+<div class="p-space-md bg-surface-primary rounded-lg shadow-xs space-y-1">
+<span class="text-label-mono font-label-mono text-[11px] text-text-secondary uppercase">Studio Email</span>
+<a class="block text-headline-sm font-headline-sm text-text-primary hover:text-primary transition-colors truncate" href="mailto:hello@nodonortestudio.com">
+                hello@nodonortestudio.com
+              </a>
+</div>
+<div class="p-space-md bg-surface-primary rounded-lg shadow-xs space-y-1">
+<span class="text-label-mono font-label-mono text-[11px] text-text-secondary uppercase">Phone & WhatsApp Direct</span>
+<a class="block text-headline-sm font-headline-sm text-text-primary hover:text-primary transition-colors" href="tel:+15550192834">
+                +1 (555) 019-2834
+              </a>
+</div>
+<div class="p-space-md bg-surface-primary rounded-lg shadow-xs flex items-center justify-between">
+<div>
+<span class="text-label-mono font-label-mono text-[11px] text-text-secondary uppercase block">Availability</span>
+<span class="text-body-md font-body-md text-text-primary font-medium">Monday – Friday, EST</span>
+</div>
+<span class="px-2.5 py-1 rounded bg-surface-secondary text-secondary-container font-label-mono text-[11px] font-semibold">ONLINE</span>
+</div>
+</div>
+<!-- Direct Quick Action Links -->
+<div class="grid grid-cols-2 gap-space-sm">
+<a class="flex items-center justify-center gap-2 py-3 px-2 rounded-lg bg-surface-primary hover:bg-surface-secondary text-text-primary font-body-md font-medium text-center shadow-xs transition-colors" href="https://wa.me/15550192834" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px] text-secondary-container">chat</span>
+<span>WhatsApp</span>
+</a>
+<a class="flex items-center justify-center gap-2 py-3 px-2 rounded-lg bg-surface-primary hover:bg-surface-secondary text-text-primary font-body-md font-medium text-center shadow-xs transition-colors" href="tel:+15550192834">
+<span class="material-symbols-outlined text-[18px] text-primary">call</span>
+<span>Call Direct</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================================================================= -->
+<!-- 8. FINAL EDITORIAL CTA (Inverted Dark Surface Anchor)              -->
+<!-- ================================================================= -->
+<section class="w-full bg-text-primary text-surface-primary py-space-3xl">
+<div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-xl">
+<div class="max-w-2xl">
+<div class="inline-flex items-center gap-2 text-label-mono font-label-mono text-secondary-container uppercase tracking-wider text-[11px] mb-space-sm">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span>FORWARD MOMENTUM</span>
+</div>
+<h2 class="text-headline-lg lg:text-display font-headline-lg lg:font-display text-surface-primary tracking-tight">
+            Need a stronger digital foundation for your business?
+          </h2>
+<p class="mt-space-sm text-subheading font-subheading text-surface-secondary leading-relaxed">
+            Whether launching a flagship website, architecting an API, or automating operations, we provide the technical clarity to move forward.
+          </p>
+</div>
+<div class="shrink-0">
+<a class="inline-flex items-center justify-center px-space-2xl py-4 rounded-lg bg-primary hover:bg-secondary-container text-on-primary font-subheading text-body-lg font-semibold tracking-wide transition-colors duration-150 shadow-lg" href="#contact">
+            Request a Quote →
+          </a>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-primary border-t border-border-subtle"><div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin py-space-3xl"><div class="grid grid-cols-1 md:grid-cols-12 gap-space-xl pb-space-2xl border-b border-border-subtle"><div class="md:col-span-5 flex flex-col items-start"><div class="flex items-center gap-space-xs text-headline-sm font-headline-sm text-text-primary tracking-tight"><span class="material-symbols-outlined text-primary text-[20px]">change_history</span><span>Nodo Norte Studio</span><span class="inline-block w-1.5 h-1.5 rounded-full bg-primary mb-1"></span></div><p class="mt-space-sm text-body-md font-body-md text-text-secondary max-w-sm">Digital systems with clear direction. Engineering websites, software, APIs, automation, and AI for modern platforms.</p></div><div class="md:col-span-3 flex flex-col"><span class="text-label-mono font-label-mono uppercase text-text-secondary mb-space-md tracking-wider">Navigation</span><div class="flex flex-col gap-space-sm"><a class="font-body-md text-body-md text-text-secondary hover:text-text-primary transition-colors" data-path="services" href="#">Services</a><a class="font-body-md text-body-md text-text-secondary hover:text-text-primary transition-colors" data-path="process" href="#">Process</a><a class="font-body-md text-body-md text-text-secondary hover:text-text-primary transition-colors" data-path="team" href="#">Team</a><a class="font-body-md text-body-md text-text-secondary hover:text-text-primary transition-colors" data-path="contact" href="#">Contact</a></div></div><div class="md:col-span-4 flex flex-col"><span class="text-label-mono font-label-mono uppercase text-text-secondary mb-space-md tracking-wider">Studio Inquiries</span><div class="flex flex-col gap-space-sm font-label-mono text-label-mono"><a class="text-text-primary hover:text-primary transition-colors" href="mailto:hello@nodonortestudio.com">hello@nodonortestudio.com</a><span class="text-text-secondary">+1 (555) 019-2834</span></div></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-label-mono font-label-mono text-text-secondary"><p>© 2025 Nodo Norte Studio. All rights reserved.</p><div class="flex items-center gap-space-md"><a class="hover:text-text-primary transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><span class="text-border-strong">·</span><a class="hover:text-text-primary transition-colors" data-path="terms-of-service" href="#">Terms of Service</a></div></div></div></footer></body></html>
